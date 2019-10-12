@@ -1,0 +1,195 @@
+* {
+    font-family: 'Oswald';
+}
+img {
+    max-width: 100%;
+}
+p{
+    font-weight: 300;
+} 
+header {
+    background: url(../img/howwedobg.jpg) center center;
+    object-fit: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.menu-top {
+    background: rgba(19, 19, 19, .3)
+}
+.menu-top ul li{
+    text-transform: uppercase;
+    list-style: square;
+    color: yellow;
+    margin-left: 20px;
+    /* align-items: center; */
+}
+.menu-top ul li:first-child {
+    list-style: none;
+}
+.menu-top a{
+    color: #fff;
+    font-weight: 700;
+}
+.menu-top a:hover {
+    color: yellow;
+}
+.middle {
+    text-transform: uppercase;
+    /* align-items: center; */
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 50%;
+    color: #ffffff;
+    font-weight: 700;
+}
+.middle .btn {
+    text-transform: uppercase;
+    background: yellow;
+    color: #000000;
+    font-weight: 700;
+    border-radius: 0;
+}
+header .nav-link {
+    font-size: 10px;
+}
+h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+}
+h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}   
+hr {
+    /* color: yellow !important; */
+    width: 12%;
+    
+    border: 1px solid yellow;
+}
+.circle {
+    border-radius: 50%;
+    background: yellow;
+    height: 105px;
+    width: 105px;
+    border: 1px solid yellow;
+    margin: 30px auto 10px;
+}
+.circle:hover {
+    background: #fff;
+    border: 1px solid #000000
+}
+.circle:hover .fa{
+    color: yellow;
+}
+.fa {
+    position: relative;
+    color: #ffffff;
+    font-size: 30px;
+    align-self: center;
+    margin: auto;
+    line-height: 105px;
+}
+section .container {
+    padding-top: 20px;
+}
+.tools{
+    background: url(../img/howwedobg.jpg) center center;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.tools h3 {
+    color: #ffe600;
+}
+.tools img{
+    height: 45px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.tools img:hover {
+    transform: rotate(360deg);
+}
+.tools p {
+    margin: 20px 0 40px;
+    line-height: 15px;
+}
+.works .nav {
+    margin: 50px auto 50px;
+    text-transform: uppercase;
+    list-style: square;
+    color: #ffe600;
+    justify-content: center;
+    width: 100%;
+}
+.works .nav-item {
+    margin-left: 15px;
+}
+.works .nav-item:first-child {
+    list-style: none;
+}
+.awesome img {
+    max-width: 100%;
+}
+.awesome {
+    align-items: center;
+    /* margin-top: 50px; */
+}
+.awesome p, .awesome h5 {
+    text-align: start !important;
+}
+.awesome .btn {
+    display: flex;
+    justify-content: flex-start;
+    background: #ffe600;
+}
+.portfolio {
+    margin-top: 50px;
+}
+.like .kh {
+    height: 40px;
+    width: 40px;
+    background: #ffe600;
+    margin: 20px 0;
+    margin: 10px auto;
+    padding-top: 5px;
+}
+.like img {
+    transform: rotate(180deg);
+    line-height: 40px;
+}
+.like h3 {
+    margin: 30px 0;
+}
+.like .btn {
+    text-transform: uppercase;
+    background: #ffe600;
+    border-radius: 0;
+}
+.digit {
+    background: url(../img/howwedobg.jpg) center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    margin-top: 30px;
+    padding: 30px 0 45px !important;
+    color: #fff;
+}
+.digit .border {
+    border: 1px solid #ffe600 !important;
+    padding: 15px;
+    text-align: center;
+}
+.digit h5 {
+    text-transform: uppercase;
+    color: #ffe600;
+}
